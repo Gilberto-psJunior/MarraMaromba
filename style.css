@@ -1,0 +1,113 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
+
+
+  
+ .icoo{
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+ }
+  .li{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+  .list:hover{
+    background-image: linear-gradient(to right,black,transparent);
+    transition: 0.6s;
+    scale:1.1;
+  }
+  .hider{
+    display:none;
+    
+}
+.igg{
+    text-align: center;
+}
+body{
+    background-image: url(./images/1e35a0_1f2e9575b3d4416db79208e45f5d06c1f000.webp);
+}
+.bgg{
+    color: white;
+}
+.botao{
+    background-color:rgba(65, 3, 3, 0.911);
+}
+.hide2{
+    display: none;
+}
+
+@media(min-width: 800px){
+.initial{
+    display: none;
+    
+    
+}
+.smaller{
+    display: none;
+}
+.control-form{
+    max-width: 80%;
+}
+
+
+.titlee{
+    font-size: 7rem
+}
+
+}
+@media(max-width: 400px){
+    .schh{
+        display: none;
+    }
+    .titlee{
+        font-size: 3rem;
+    }
+   
+    
+    }
+
+
+@media(max-width: 1200px){
+    
+    
+    .igg{
+        display: none;
+    }   
+.igg{
+    height: 130px;
+  
+}
+.igg{
+    display: block;
+}
+.titlee{
+    font-size: 4rem;
+    display: none;
+    
+}
+    .hider{
+        font-family: 'Rubik Dirt';
+
+border-left: -300px;
+    }
+
+    .icoo{
+        display: none;
+        height: 90px;
+        width: 160px;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    
+}
+@media(max-width:800px){
+    .igg{
+        display: none;
+        height:5px;
+        width: 80px;
+    }
+}
